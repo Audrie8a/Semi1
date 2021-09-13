@@ -92,6 +92,8 @@ exports.Prueba = async (req, res) => {
         res.json("error")
     }
 }
+
+
  exports.registro =async(req,res)=>{
     try {
        const {Nombre,Usuario,Correo,Password,idFoto}= req.body
