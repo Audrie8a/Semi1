@@ -53,20 +53,10 @@ export class PrincipalComponent implements OnInit {
     let aux= await this.princialSevice.CargarDatosUser(this.Usuario);
     let json=JSON.stringify(aux)
     let obj= JSON.parse(json)
-    this.fileSelected=this.dataURItoBlob(obj.foto)
-    this.ImgUrl=this.sant.bypassSecurityTrustUrl(window.URL.createObjectURL(this.fileSelected)) as string;
+    this.ImgUrl=obj.foto;
     
     
   }
-  dataURItoBlob(dataURI: string) {
-    const byteString = window.atob(dataURI);
-    const arrayBuffer = new ArrayBuffer(byteString.length);
-    const int8Array = new Uint8Array(arrayBuffer);
-    for (let i = 0; i < byteString.length; i++) {
-      int8Array[i] = byteString.charCodeAt(i);
-    }
-    const blob = new Blob([int8Array], { type: 'image/png' });    
-    return blob;
- }
+  
 
 }

@@ -62,22 +62,8 @@ exports.Prueba = async (req, res) => {
                if (err) throw err;
                
                if(result.length!=0){
-                    var getParams = {
-                        Bucket: 'appweb-6p1',
-                        Key: result[0].foto
-                    }
-                    
-                    s3.getObject(getParams, function (err2, data) {
-                        if (err2)
-                            return res.json("error");
-                        //de bytes a base64
-                        var dataBase64 = Buffer.from(data.Body).toString('base64');
-                        result[0].foto=dataBase64;
-                        
-                        
-                        return res.json(result[0]);
-                    
-                    });                    
+                    result[0].foto="https://appweb-6p1.s3.us-east-2.amazonaws.com/"+result[0].foto
+                    return res.json(result[0]);                   
                }else{
                    return res.json("false");
                }                
