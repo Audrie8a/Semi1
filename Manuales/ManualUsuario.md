@@ -45,7 +45,7 @@ En esta Seccion el Usuario unicamente ingresara sus datos Oprimir el boton Login
 pantalla principal con su usuario.
 <br clear="left"/><br/>
 
-<img src="./images/main.PNG" align="left" width="40%" style="margin-right: 15px;"/>
+<img src="./images/main.PNG" align="left" width="65%" style="margin-right: 15px;"/>
 
 <br clear="left"/><br/>
 La pagina principal del usuario mostrar esta interfaz de seleccion para navegar entre la plataforma
@@ -73,7 +73,7 @@ luego ingresara el nombre con el que quiere subir la imagen, y seleccionara si q
 
 ## Editar o Eliminar
 <br>
-<img src="./images/edit.PNG" align="left" width="40%" style="margin-right: 15px;"/>
+<img src="./images/edit.PNG" align="left" width="65%" style="margin-right: 15px;"/>
 <br clear="left"/><br/>
 
 Las Secciones Editar y Eliminar son similares el usuario elige cual editar y cual eliminar al oprimir el boton correspodiente al archivo con el que se desea realizar la accion se despliega una seccion extra. En el caso de editar, el usuario elegira si quiere cambiar el estado de la imagen de PUBLICA a PRIVADA o viceversa.
@@ -84,7 +84,7 @@ En el caso de ELIMINAR solo es necesario la confirmacion de contraseña
 
 <br>
 
-<img src="./images/amigos.PNG" align="left" width="40%" style="margin-right: 15px;"/>
+<img src="./images/amigos.PNG" align="left" width="65%" style="margin-right: 15px;"/>
 
 <br clear="left"/><br/>
 
