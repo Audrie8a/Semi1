@@ -45,10 +45,10 @@ En esta Seccion el Usuario unicamente ingresara sus datos Oprimir el boton Login
 pantalla principal con su usuario.
 <br clear="left"/><br/>
 
-<img src="./images/main.PNG" align="left" width="400" height="400" style="margin-right: 15px;"/>
-La pagina principal del usuario mostrar esta interfaz de seleccion para navegar entre la plataforma
-<br clear="left"/><br/>
+<img src="./images/main.PNG" align="left" width="40%" style="margin-right: 15px;"/>
 
+<br clear="left"/><br/>
+La pagina principal del usuario mostrar esta interfaz de seleccion para navegar entre la plataforma
 <br><br>
 
 ## Subir Archivo
@@ -73,15 +73,21 @@ luego ingresara el nombre con el que quiere subir la imagen, y seleccionara si q
 
 ## Editar o Eliminar
 <br>
-<img src="./images/edit.PNG" align="left" width="400" height="400" style="margin-right: 15px;"/>
-Las Secciones Editar y Eliminar son similares el usuario elige cual editar y cual eliminar al oprimir el boton correspodiente al archivo con el que se desea realizar la accion se despliega una seccion extra. En el caso de editar, el usuario elegira si quiere cambiar el estado de la imagen de PUBLICA a PRIVADA o viceversa.
-En el caso de ELIMINAR solo es necesario la confirmacion de contraseña
+<img src="./images/edit.PNG" align="left" width="40%" style="margin-right: 15px;"/>
 <br clear="left"/><br/>
 
-## Seccion amigos
+Las Secciones Editar y Eliminar son similares el usuario elige cual editar y cual eliminar al oprimir el boton correspodiente al archivo con el que se desea realizar la accion se despliega una seccion extra. En el caso de editar, el usuario elegira si quiere cambiar el estado de la imagen de PUBLICA a PRIVADA o viceversa.
+En el caso de ELIMINAR solo es necesario la confirmacion de contraseña
 <br>
 
-<img src="./images/amigos.PNG" align="left" width="400" height="400" style="margin-right: 15px;"/>
+## Seccion amigos
+
+<br>
+
+<img src="./images/amigos.PNG" align="left" width="40%" style="margin-right: 15px;"/>
+
+<br clear="left"/><br/>
+
 En esta seccion encontraremos 3 Sub-Secciones:
 <br>
 
@@ -92,8 +98,6 @@ En esta seccion encontraremos 3 Sub-Secciones:
 <br>
 En la seccion AMIGOS, se visualizaran todos los usuarios a los que el usuario principal acepto como amigos.
 En la seccion SUGERENCIAS es donde al usuario se le mostraran todas las opciones de amistad que tiene disponibles a las cuales podra mandar solicitud de amistad. Y por ultimo la seccion SOLICITUDES aqui el usuario visualizara todas la solicitudes de amistad enviadas por otros usuarios, y este elige si aceptarlas o rechazarlas.
-
-<br clear="left"/><br/>
 
 ## Ver Archivos
 <br>
