@@ -12,7 +12,7 @@ const httpOptions = {
 })
 export class EditarArchivoService {
 
-  url:string="http://localhost:3000/";//"bL-475949248.us-east-2.elb.amazonaws.com:3000/"
+  url:string="http://bl-475949248.us-east-2.elb.amazonaws.com:3000/"
   constructor(private httpClient: HttpClient) { }
 
   getMisArchivos(iduser:string | null){
